@@ -18,7 +18,6 @@
     background: #131318;
     padding: 32px;
 }
-
 .carousel-content-h3{
     color: #FFF;
     font-family: Manrope;
@@ -27,14 +26,55 @@
     font-weight: 800;
     line-height: normal;
 }
-
-
 .carousel-content-p{
     color: rgba(255, 255, 255, 0.60);
     font-family: Manrope;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
+    line-height: 26px; 
+}
+
+
+/* Radial Section */
+
+.radial-h1{
+    color: #131318;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 36px;
+    font-style: normal;
+    ont-weight: 800;
+    line-height: normal;
+}
+.radial-p1{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px; /* 162.5% */
+}
+.radial-h3{
+    color: #131318;
+
+    text-align: center;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.radial-p2{
+    color: rgba(19, 19, 24, 0.60);
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 26px; /* 162.5% */
 }
 
+
+/* Progrma Section */
