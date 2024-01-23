@@ -2,9 +2,9 @@
     margin: 0;
     padding: 0;
 }
-.contain{
+/* .contain{
     margin: 0 100px;
-}
+} */
 .naveIcon{
     color: #FF4240;
 }
@@ -80,3 +80,18 @@
 
 
 /* Progrma Section */
+
+@media screen and (max-width: 640px) {
+    .carousel-content{
+        position: relative;
+        
+        bottom:5px;
+        right: -2px;
+        border-radius: 16px;
+        background: #131318;
+        padding: 32px;
+    }
+    body{
+        background: #3434c4;
+    }
+  }

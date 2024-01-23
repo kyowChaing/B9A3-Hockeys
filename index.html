@@ -17,7 +17,7 @@
 
 <body>
     <!-- nav bar -->
-    <nav>
+    <nav class="contain mx-10 lg:mx-20">
       <div class="navbar bg-base-100">
         <div class="navbar-start">
           <div class="dropdown">
@@ -25,34 +25,22 @@
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
             </div>
             <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              <li><a>Item 1</a></li>
-              <li>
-                <a>Parent</a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-              <li><a>Item 3</a></li>
-              <li><a>Item 4</a></li>
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
             </ul>
           </div>
           <a class="btn btn-ghost text-xl">Hockey<span class="naveIcon">'</span>s</a>
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal px-1">
-            <li><a>Item 1</a></li>
-            <li>
-              <details>
-                <summary>Parent</summary>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </details>
-            </li>
-            <li><a>Item 3</a></li>
-            <li><a>Item 4</a></li>
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Pages</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
           </ul>
         </div>
         <div class="navbar-end">
@@ -66,7 +54,7 @@
 
     <!-- carousel  -->
 
-    <div class="contain banner">
+    <div class="contain banner mx-10 lg:mx-20">
 
         <div class="carousel w-full">
             <div id="slide1" class="carousel-item relative w-full">
@@ -85,19 +73,22 @@
             </div> 
            
         </div>
-        <div class="carousel-content">
+        <div class="carousel-content ">
+          <div>
             <h3 class="carousel-content-h3">Meet all the heroses from the field</h3>
             <p class="carousel-content-p">
                 Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. 
                 <br> Purus urna in sit nullam proin.
             </p>
+          </div>
+            
         </div>
     </div>
 
 
     <!-- Redial Progresss Bar -->
   
-      <div class="contain">
+      <div class="contain mx-10 lg:mx-20">
         <div class="hero bg-base-100">
           <div class="hero-content text-center ">
             <div class="max-w-md">
@@ -111,7 +102,7 @@
         </div>
       </div>
    
-      <div class="contain ">
+      <div class="contain mx-10 lg:mx-20">
         <div class="hero bg-base-100 ">
           <div class="hero-content flex-col lg:flex-row">
             <div class="text-center">
@@ -147,7 +138,22 @@
       </div>
 
       <!-- Program Section -->
-      <div class="contain">
+
+      <div class="contain mx-10 lg:mx-20">
+        <div class="hero bg-base-100">
+          <div class="hero-content text-center ">
+            <div class="max-w-md">
+              <h1 class="text-3xl font-bold radial-h1">Professional Hockeys Club</h1>
+              <p class="py-6 radial-p1">
+                Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat 
+                dolor. Purus urna in sit nullam proin. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contain mx-10 lg:mx-20">
         <div class="hero">
           <div class="hero-content flex-col lg:flex-row">
             <div class="hero " style="background-image: url(Images/2.png);">
@@ -175,7 +181,7 @@
         </div>
       </div>
 
-      <div class="contain">
+      <div class="contain mx-10 lg:mx-20">
         <div class="hero-content flex-col lg:flex-row">
           <div class="hero" style="background-image: url(Images/4.png);">
             <div class="hero-overlay bg-opacity-60"></div>
@@ -193,14 +199,14 @@
 
 
       <!-- Our New Products -->
-    <div class="grid">
+    <div class="grid mx-10 lg:mx-20">
       <div class="grid lg:grid-cols-2">
-        <div class="hero bg-base-200">
+        <div class="hero bg-base-200 gap-x-5 ">
           <div class="hero-content flex-col lg:flex-row">
             <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
             <div>
-              <h1 class="text-5xl font-bold">Box Office News!</h1>
-              <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+              <h1 class="text-5xl font-bold">World Cup Flags Football</h1>
+              <p class="py-6">Dolor sit amet consectetur. Ut urna diam quis sagittis. </p>
               <button class="btn btn-primary">Get Started</button>
             </div>
           </div>
@@ -259,7 +265,7 @@
 
     </div>
       <!-- Footer -->
-      <footer class="footer p-10 bg-base-200 text-base-content">
+      <footer class="footer p-10 text-base-content">
         <nav>
           <header class="footer-title">Services</header> 
           <a class="link link-hover">Branding</a>
