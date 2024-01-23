@@ -5,7 +5,9 @@
 .contain{
     margin: 0 100px;
 }
-
+.naveIcon{
+    color: #FF4240;
+}
 /* carousel or banner section */
 .banner{
     position: relative;
